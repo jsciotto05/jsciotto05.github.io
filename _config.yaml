@@ -1,0 +1,17 @@
+title: "Joseph Sciotto"
+description: "Mechanical Engineering | Systems | Code + Hardware"
+url: "https://jsciotto05.github.io"
+
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
