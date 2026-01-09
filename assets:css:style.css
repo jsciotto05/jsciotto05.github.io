@@ -8,6 +8,8 @@ body {
 a { color: #7ee787; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+h1, h2, h3 { color: #e6edf3; margin-top: 0; }
+
 .nav {
   display: flex; gap: 16px; align-items: center;
   padding: 14px 18px;
