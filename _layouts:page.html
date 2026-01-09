@@ -2,6 +2,8 @@
 layout: default
 ---
 <section class="page">
-  <h1>{{ page.title }}</h1>
+  {% unless page.show_title == false %}
+    <h1>{{ page.title }}</h1>
+  {% endunless %}
   {{ content }}
 </section>
