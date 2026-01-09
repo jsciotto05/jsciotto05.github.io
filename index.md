@@ -11,8 +11,9 @@ I build engineering systems across hardware + software: simulations, tools, embe
 - Projects: /projects/
 - Resume: /resume/
 
+{% assign featured = site.projects | where: "featured", true | sort: "order" %}
+{% if featured.size > 0 %}
 ## Featured Projects
-{% assign featured = site.projects | where: "featured", true %}
 {% for p in featured %}
 <div class="card">
   <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
@@ -23,3 +24,4 @@ I build engineering systems across hardware + software: simulations, tools, embe
   </p>
 </div>
 {% endfor %}
+{% endif %}
