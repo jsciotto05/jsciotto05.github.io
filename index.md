@@ -8,8 +8,6 @@ show_title: false
   <div>
     <p class="eyebrow">Mechanical Engineering · Hardware · Software · Systems</p>
 
-    <h1>Joseph Sciotto</h1>
-
     <p class="hero-subtitle">
       Mechanical engineering student at Columbia University building practical systems across
       CAD, simulation, embedded hardware, automation, and infrastructure.
