@@ -14,4 +14,4 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"
+      layout: "projects"
