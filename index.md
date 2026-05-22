@@ -53,7 +53,3 @@ show_title: false
   </div>
 </section>
 {% endif %}---
-layout: page
-title: Home
-show_title: false
----
