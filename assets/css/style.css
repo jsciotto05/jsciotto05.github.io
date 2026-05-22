@@ -295,3 +295,29 @@ hr {
     padding-top: 2.5rem;
   }
 }
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) 320px;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 760px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo {
+    max-width: 320px;
+  }
+}
