@@ -21,7 +21,7 @@ show_title: false
   </div>
 </section>
 
-<img src="/assets/IMG_9227.jpg", alt="Me in Ireland!">
+<img src="/assets/IMG_9227.jpg", alt="Me in Ireland!"/>
 
 {% assign featured = site.projects | where: "featured", true | sort: "order" %}
 {% if featured.size > 0 %}
