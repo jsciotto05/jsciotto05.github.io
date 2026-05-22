@@ -6,6 +6,7 @@ show_title: false
 
 <section class="hero hero-grid">
   <div>
+    <h1>Joseph Sciotto</h1>
     <p class="eyebrow">Mechanical Engineering · Hardware · Software · Systems</p>
 
     <p class="hero-subtitle">
