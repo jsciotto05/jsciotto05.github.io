@@ -4,24 +4,26 @@ title: Home
 show_title: false
 ---
 
-<section class="hero">
-  <p class="eyebrow">Mechanical Engineering · Hardware · Software · Systems</p>
+<section class="hero hero-grid">
+  <div>
+    <p class="eyebrow">Mechanical Engineering · Hardware · Software · Systems</p>
 
-  <h1>Joseph Sciotto</h1>
+    <h1>Joseph Sciotto</h1>
 
-  <p class="hero-subtitle">
-    Mechanical engineering student at Columbia University building practical systems across
-    CAD, simulation, embedded hardware, automation, and infrastructure.
-  </p>
+    <p class="hero-subtitle">
+      Mechanical engineering student at Columbia University building practical systems across
+      CAD, simulation, embedded hardware, automation, and infrastructure.
+    </p>
 
-  <div class="hero-actions">
-    <a class="button primary" href="/projects/">View Projects</a>
-    <a class="button secondary" href="/assets/Joseph_Sciotto_Resume.pdf">View Resume</a>
-    <a class="button secondary" href="/contact/">Contact</a>
+    <div class="hero-actions">
+      <a class="button primary" href="/projects/">View Projects</a>
+      <a class="button secondary" href="{{ '/assets/Joseph_Sciotto_Resume.pdf' | relative_url }}">View Resume</a>
+      <a class="button secondary" href="/contact/">Contact</a>
+    </div>
   </div>
-</section>
 
-<img src="/assets/IMG_9227.jpg" alt="Me in Ireland!"/>
+  <img class="hero-photo" src="{{ '/assets/IMG_9227.jpg' | relative_url }}" alt="Joseph Sciotto" />
+</section>
 
 {% assign featured = site.projects | where: "featured", true | sort: "order" %}
 {% if featured.size > 0 %}
