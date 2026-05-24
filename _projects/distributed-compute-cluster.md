@@ -87,7 +87,7 @@ The biggest lesson is that distributed computing is more about systems integrati
 
 This project also showed that old hardware can still be useful when the workload is chosen carefully. The cluster is best suited for batch jobs, parameter sweeps, automation tasks, and educational experiments rather than tightly coupled high-performance simulations.
 
-## Next Steps
+## Potential Next Steps
 
 Future improvements include:
 
