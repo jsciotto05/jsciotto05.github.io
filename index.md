@@ -11,7 +11,8 @@ show_title: false
 
     <p class="hero-subtitle">
       Mechanical engineering student at Columbia University building practical systems across
-      CAD, simulation, embedded hardware, automation, and infrastructure.
+      CAD, simulation, embedded hardware, automation, and infrastructure. My personal hobbies
+      include running, reading, and writing.
     </p>
 
     <div class="hero-actions">
