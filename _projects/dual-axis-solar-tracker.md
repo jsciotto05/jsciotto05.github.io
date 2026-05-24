@@ -6,7 +6,7 @@ stack: [C++, 3D Design, 3D Printing, Circuit Design]
 repo: "https://github.com/jsciotto05/Dual-Axis-Solar-Tracker"
 demo: 
 featured: true
-order: 2
+order: 3
 ---
 
 ## Overview
