@@ -7,7 +7,7 @@ stack: [3D Design, 3D Printing, Market Research]
 repo: "https://github.com/jsciotto05/REPO_NAME_HERE"
 demo: 
 featured: true
-order: 2
+order: 4
 ---
 
 ## Overview
