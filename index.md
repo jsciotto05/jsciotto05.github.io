@@ -17,7 +17,7 @@ show_title: false
 
     <div class="hero-actions">
       <a class="button primary" href="/projects/">View Projects</a>
-      <a class="button secondary" href="{{ '/assets/Joseph_Sciotto_Resume.pdf' | relative_url }}">View Resume</a>
+      <a class="button secondary" href="{{ '/assets/Joseph_Sciotto_Resume_Summer_2026-4.pdf' | relative_url }}">View Resume</a>
       <a class="button secondary" href="/contact/">Contact</a>
     </div>
   </div>
