@@ -23,9 +23,8 @@ show_title: false
   </div>
 
   <img class="hero-photo" src="{{ '/assets/IMG_9227.jpg' | relative_url }}" alt="Joseph Sciotto" />
+  <p>Check out my latest endeavor, Symphony Lang, an esolang developed by me to write code using music notes! <a href="{{'symphony.html' | relative_url}}">Symphony</a></p>
 </section>
-<p>Check out my latest endeavor, Symphony Lang, an esolang developed by me to write code using music notes! <a href="{{'symphony.html' | relative_url}}">Symphony</a></p>
-<br>
 {% assign featured = site.projects | where: "featured", true | sort: "order" %}
 {% if featured.size > 0 %}
 <section class="section">
