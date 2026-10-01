@@ -30,7 +30,9 @@ show_title: false
 <section class="section">
   <div class="section-heading">
     <h2>Featured Projects</h2>
+    <br>
     <p>Check out my latest endeavor, Symphony Lang, an esolang developed by me to write code using music notes! <a href="{{'symphony.html' | relative_url}}">Symphony</a></p>
+    <br>
     <p>Selected engineering, software, and infrastructure work.</p>
   </div>
 
